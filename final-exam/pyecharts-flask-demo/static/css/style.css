@@ -251,15 +251,35 @@ body {
 /*/////////////// FONT STYLES ////////////////////*/
 
 .content-w3ls {
-    max-width: 500px;
-    margin: 5em auto;
+    margin-top: 5%;
 }
 
 .content-bottom {
     padding: 3em 4em;
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     border-radius: 1px 1px 1px 0px;
-    margin: 0 1em;
+     box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
+    -webkit-box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
+    -o-box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
+    -moz-box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
+    -ms-box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
+}
+
+.content-bottom1 {
+    padding: 3em 4em;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    border-radius: 1px 1px 1px 0px;
+     box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
+    -webkit-box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
+    -o-box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
+    -moz-box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
+    -ms-box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
+}
+
+.content-bottom2 {
+    padding: 3em 4em;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    border-radius: 1px 1px 1px 0px;
      box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
     -webkit-box-shadow: 12px 12px rgba(106, 106, 106, 0.6);
     -o-box-shadow: 12px 12px rgba(106, 106, 106, 0.6);

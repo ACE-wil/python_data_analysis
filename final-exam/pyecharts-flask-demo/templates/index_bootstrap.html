@@ -172,10 +172,10 @@
 </div>
 <!-- End Icon Blocks -->
 <main>
-<div class="content-w3ls">
-        <div class="content-bottom">
-			<h2>查询城市岗位分布</h2>
-            <form action="/results" method="POST">
+<div class="content-w3ls" style="margin-bottom: 40px">
+        <div class="content-bottom" style="position: absolute;margin-left: 8%;">
+			<h2>查询城市热门职位</h2>
+            <form action="/word" method="POST">
                 <div class="field-group">
                     <span class="fa fa-user" aria-hidden="true"></span>
                     <div class="wthree-field">
@@ -202,62 +202,74 @@
 
             </form>
         </div>
-    </div>
-    <div class="copyright text-center">
-        <p>© shen | Design by
-            <a href="http://shen.com">W3layouts</a>
-        </p>
-    </div>
+
+  <div class="content-bottom1" style="position: absolute;margin-left: 39%;">
+			<h2>查询城市岗位分布</h2>
+            <form action="/map" method="POST">
+                <div class="field-group">
+                    <span class="fa fa-user" aria-hidden="true"></span>
+                    <div class="wthree-field">
+                        <input name="job_name" type="text" value="" placeholder="请填写查询的职位" required>
+                    </div>
+                </div>
+                <div class="field-group">
+                    <span class="fa fa-lock" aria-hidden="true"></span>
+                    <div class="wthree-field">
+                        <input name="city_name" type="text" placeholder="请填写目标城市">
+                    </div>
+                </div>
+                <div class="field-group">
+                    <div class="check">
+
+                    </div>
+                    <!-- script for show password -->
+
+                    <!-- //script for show password -->
+                </div>
+                <div class="wthree-field">
+                    <input id="saveForm" name="saveForm" type="submit" value="查询" />
+                </div>
+
+            </form>
+        </div>
+
+  <div class="content-bottom2" style="position: absolute;margin-left: 71%">
+			<h2>查询岗位平均薪资</h2>
+            <form action="/mid" method="POST">
+                <div class="field-group">
+                    <span class="fa fa-user" aria-hidden="true"></span>
+                    <div class="wthree-field">
+                        <input name="job_name" type="text" value="" placeholder="请填写查询的职位" required>
+                    </div>
+                </div>
+                <div class="field-group">
+                    <span class="fa fa-lock" aria-hidden="true"></span>
+                    <div class="wthree-field">
+                        <input name="city_name" type="text" placeholder="请填写目标城市">
+                    </div>
+                </div>
+                <div class="field-group">
+                    <div class="check">
+
+                    </div>
+                    <!-- script for show password -->
+
+                    <!-- //script for show password -->
+                </div>
+                <div class="wthree-field">
+                    <input id="saveForm" name="saveForm" type="submit" value="查询" />
+                </div>
+
+            </form>
+        </div>
+</div>
+
+
 
 </main>
+  <div style="width: 100px;height: 100px;background-color: white;margin-top: 500px"></div>
   <!-- Footer -->
-<footer class="font-weight-light text-white-55 pt-11 pb-5" style="background-color: white">
-  <div class="container">
-    <div class="row justify-content-md-between">
-      <div class="col-sm-4 col-lg-2 mb-4 order-lg-2">
-        <h4 class="h6 text-white mb-3">关于</h4>
-        <!-- Links -->
-        <ul class="list-unstyled">
-          <li class="mb-2"><a class="link-white-55" href="/about/" >关于我们</a></li>
-          <li class="mb-2"><a class="link-white-55" href="/ad/" >广告合作</a></li>
-          <li class="mb-2"><a class="link-white-55" href="/links/" >友链</a></li>
-          <li class="mb-2"><a class="link-white-55" href="/jobs/" >招聘</a></li>
-        </ul>
-        <!-- End Links -->
-      </div>
-      <div class="col-sm-4 col-lg-2 mb-4 order-lg-3">
-        <h4 class="h6 text-white mb-3">特别致谢</h4>
-        <!-- Links -->
-        <ul class="list-unstyled">
-          <li class="mb-2"><a class="link-white-55" href="https://www.upyun.com/?fromt=bootcss.com" target="_blank" >又拍云</a></li>
-          <li class="mb-2"><a class="link-white-55" href="https://www.jdcloud.com/?fromt=bootcss.com" target="_blank" >京东云</a></li>
-        </ul>
-        <!-- End Links -->
-      </div>
-      <div class="col-sm-4 col-lg-2 mb-4 order-lg-4">
-        <h4 class="h6 text-white mb-3">联系方式</h4>
-        <!-- Links -->
-        <ul class="list-unstyled">
-          <li class="mb-2"><a class="link-white-55" href="https://weibo.com/bootcss" target="_blank" >微博</a></li>
-          <li class="mb-2"><a class="link-white-55" href="mailto:cdn@bootcdn.cn" target="_blank" >邮箱</a></li>
-        </ul>
-        <!-- End Links -->
-      </div>
-    </div>
-    <hr class="my-5 opacity-10">
-    <div class="row row-cols-1 row-cols-md-3">
-      <div class="col">
-        <p class="small font-weight-light mb-0"><a class="link-white-55" href="https://beian.miit.gov.cn/" target="_blank">京ICP备11008151号-6</a>&nbsp;&nbsp;&verbar;&nbsp;&nbsp;京公网安备11010802014853</p>
-      </div>
-      <div class="col text-md-center">
 
-      </div>
-      <div class="col text-md-right">
-        <p class="small font-weight-light mb-0">&copy; 2012-2023 <a class="link-white-55" href="https://www.bootcss.com/">Bootstrap中文网</a></p>
-      </div>
-    </div>
-  </div>
-</footer>
 <!-- End Footer -->
   <!-- Go to Top -->
   <a class="js-go-to duik-go-to" href="javascript:;">
